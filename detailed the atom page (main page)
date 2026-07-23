@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}Add Review{% endblock %}
+
+{% block content %}
+<head>
+    <title>˙•˚Q U A N T U M ˚ S C A L E •˚•˙˙˚</title>
+</head>
+<body>
+    <!-- Display the username dynamically -->
+    <h1 style="color: #FFFFFF">Welcome back, {{ user }}!</h1>
+    
+    <a href="/logout">Logout</a>
+</body>
+<body style="background-color: #11061F">
+    <h2 style="color: #FFFFFF">The Atom: </h1>
+    <h3 style="text-align:left; margin-top: 10px; font-size:20px; color: #FFFFFF"> the basic, fundamental building block of all matter. It is the smallest unit of a </h3>
+    <h4 style="text-align:left; margin-top: 10p; font-size:20px; color: #FFFFFF"> chemical element that retains its properties. Atoms are made up of a dense central</h4>
+    <h5 style="text-align:left; margin-top: 10px; font-size:20px; color: #FFFFFF"> nucleus (containing protons and neutrons)surrounded by a cloud of orbiting electrons.</h5>
+</body>
+<nav>
+    <iframe src='https://my.spline.design/untitledcopy-r0MwuBQJBDH66R3zzuiyyweA/' frameborder='0' width='60%' height='250px'></iframe>
+</iframe>
+</nav>
+</html>
+
+{% endblock %}
